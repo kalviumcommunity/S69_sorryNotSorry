@@ -1,7 +1,7 @@
 {
   "name": "s69_sorrynotsorry",
   "version": "1.0.0",
-  "description": "# SorryNotSorry ## Project Overview SorryNotSorry is a fun and interactive random excuse generator designed to help users gracefully escape unwanted situations. Whether it’s an awkward conversation, a meeting you’d rather skip, or a casual hangout you need to dodge, SorryNotSorry has you covered with a creative excuse at the press of a button and also you can categorise the excuse, user can make their own customised excuse and later analyse the effectiveness of the excuse",
+  "description": "",
   "homepage": "https://github.com/kalviumcommunity/S69_sorryNotSorry#readme",
   "bugs": {
     "url": "https://github.com/kalviumcommunity/S69_sorryNotSorry/issues"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/kalviumcommunity/S69_sorryNotSorry.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Dhananjai",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
