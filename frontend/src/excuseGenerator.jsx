@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Dices, Clipboard, Moon, Sun } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 const excuses = [
@@ -104,6 +105,10 @@ const ExcuseGenerator = () => {
               <Clipboard className="w-6 h-6" />
               <span>Copy</span>
             </button>
+            
+
+
+
           )}
         </div>
 
@@ -124,6 +129,10 @@ const ExcuseGenerator = () => {
           🌈 For when reality is just too boring! 🦄
         </p>
       </div>
+      <Link to="/feedback" className='flex justify-end pr-10 pt-[275px] '>
+      <button className='bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-lg shadow-lg hover:scale-105 transition-all'>Feedback Form</button>
+      
+      </Link>
     </div>
   );
 };
