@@ -2,7 +2,7 @@ import React from 'react';
 import ExcuseGenerator from './excuseGenerator'; // Importing the generator component
 import './App.css';
 import LandingPage from './landingPage';
-import LoginPage from './loginPage';
+import LoginPage from '../src/components/loginPage.jsx';
 import SignupPage from './signupPage.jsx';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
