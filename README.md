@@ -22,3 +22,9 @@ After getting the usefull inputs from the user, they can Generate excuses instan
 #### •Excuse Analyzer
 When the user creates their own customised excuse they can use the analyzer to  Rate the effectiveness of excuses and get suggestions for improvement.
 
+
+
+
+
+frontend deployed link:
+https://spontaneous-youtiao-6e5baa.netlify.app

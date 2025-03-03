@@ -4,11 +4,6 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 let check = false;
 
-mongoose.connect(process.env.db_ur)
-.then(() => {console.log('connected to db'); 
-    check = true; })
-.catch(err => console.log(err));
-
 
 app.get("/",(req,res)=>{
     if(check){
